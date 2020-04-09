@@ -5,7 +5,7 @@ raspberry pi deployment scripts
 
 ### If you for some reason need to "bake" a new firmware image, do the following:
 
-You can edit this script to download whatever firmware version needed.
+You can edit this script to download whatever firmware version needed, the one in the script is verified to work.
 
 - make sure your software is updated: `sudo apt update && sudo apt upgrade`
 - run the following script to create a new firmware image that supports PXE booting: `sh rpimakefirmware.sh`
