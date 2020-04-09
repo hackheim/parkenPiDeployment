@@ -16,6 +16,7 @@ You can edit this script to download whatever firmware version needed, the one i
 - write down the 8 characters the script tells you to take note of(important later)
   - it might be wise to write on a piece of electrical tape and put on the pi.
 - shut down the pi `sudo shutdown now`
+- remove the SD-card, no need for that anymore.
 
 Congrats, the firmware on the pi should be ready for network boot, now proceed with the following steps below to be ready to deploy.
 
@@ -25,6 +26,7 @@ Congrats, the firmware on the pi should be ready for network boot, now proceed w
 
   -  for example: `sh addpi.sh 2f934686`
   -  This will create the boot directories the pi needs to be able to boot up.
+  -  Plug in power and networking, remember to double-check you removed the SD-card.
   
 ### CONGRATS! YOUR PI SHOULD BE READY TO BOOT UP!
   
