@@ -3,7 +3,9 @@ raspberry pi deployment scripts
 
 ## Flash the firmware on the raspberry pi to support network boot:
 
-### If you have a fresh install on your SD card do the following first:
+### If you for some reason need to "bake" a new firmware image, do the following:
+
+You can edit this script to download whatever firmware version needed.
 
 - make sure your software is updated: `sudo apt update && sudo apt upgrade`
 - run the following script to create a new firmware image that supports PXE booting: `sh rpimakefirmware.sh`
