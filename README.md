@@ -19,7 +19,7 @@ You can edit this script to download whatever firmware version needed, the one i
 
 Congrats, the firmware on the pi should be ready for network boot, now proceed with the following steps below to be ready to deploy.
 
-### 3) Now, this you do on the PXE-boot server:
+### Now, follow this routine to configure the server to provide the boot images for the pi:
 
 - run `sh addpi.sh 11223344` where the number will be the one that was provided in the previous step.
 
