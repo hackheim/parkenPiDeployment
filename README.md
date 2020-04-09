@@ -1,12 +1,14 @@
 # parkenPiDeployment
 raspberry pi deployment scripts
 
-## on a fresh raspberry pi4 do the following to configure network boot:
+## Flash the firmware on the raspberry pi to support network boot:
+
+### If you have a fresh install on your SD card do the following first:
 
 - make sure your software is updated: `sudo apt update && sudo apt upgrade`
 - run the following script to create a new firmware image that supports PXE booting: `sh rpimakefirmware.sh`
 
-## If you already have an SD-card set up with the already "baked" fimrware image do the following:
+### If you already have an SD-card set up with the already "baked" fimrware image do the following:
 
 - run `sh firmwaredeploy.sh`
 - write down the 8 characters the script tells you to take note of(important later)
