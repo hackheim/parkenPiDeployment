@@ -9,5 +9,7 @@ raspberry pi deployment scripts
 ## If you already have an SD-card set up with the already "baked" fimrware image do the following:
 
 - run `sh firmwaredeploy.sh`
-- write down the 8 characters the script tells you to take note of(important later), might be wise to write on a piece of electrical tape and put on the pi.
+- write down the 8 characters the script tells you to take note of(important later)
+
+  it might be wise to write on a piece of electrical tape and put on the pi.
 - shut down the pi `sudo shutdown now`
