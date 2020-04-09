@@ -10,7 +10,7 @@ You can edit this script to download whatever firmware version needed, the one i
 - make sure your software is updated: `sudo apt update && sudo apt upgrade`
 - run the following script to create a new firmware image that supports PXE booting: `sh rpimakefirmware.sh`
 
-### 2) If you already have an SD-card set up with the already "baked" fimrware image do the following:
+### 2) When already have an SD-card set up with the already "baked" fimrware:
 
 - run `sh firmwaredeploy.sh`
 - write down the 8 characters the script tells you to take note of(important later)
