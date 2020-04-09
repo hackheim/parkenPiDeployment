@@ -18,4 +18,12 @@ You can edit this script to download whatever firmware version needed, the one i
   it might be wise to write on a piece of electrical tape and put on the pi.
 - shut down the pi `sudo shutdown now`
 
-### 3)
+### 3) Now, this you do on the PXE-boot server:
+
+- run `sh addpi.sh 11223344` where the number will be the one that was provided in the previous step.
+  for example: `sh addpi.sh 2f934686`
+  This will create the boot directories the pi needs to be able to boot up.
+  
+### CONGRATS! YOUR PI SHOULD BE READY TO BOOT UP!
+  
+  
